@@ -13,3 +13,4 @@ Sage is implementation of Saga pattern, consisting of 2 components:
   + Receive success/compensating events
   + Support idempotent, timeout handling, late events...
 
+![Sage Architecture](SageArchitecture.png)
