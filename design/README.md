@@ -14,3 +14,7 @@ Sage is implementation of Saga pattern, consisting of 2 components:
   + Support idempotent, timeout handling, late events...
 
 ![Sage Architecture](SageArchitecture.png)
+
+### Sage Orchestrator 
+
+### Sage Pod
