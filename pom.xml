@@ -5,7 +5,7 @@
 	<artifactId>sage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
+	
 	<properties>
 		<java.version>11</java.version>
 		<maven.compile.plugin.version>3.8.0</maven.compile.plugin.version>
@@ -16,6 +16,12 @@
 		<slf4j.version>1.7.26</slf4j.version>
 		<log4j2.version>2.11.1</log4j2.version>
 	</properties>
+	
+	<modules>
+		<module>common</module>
+		<module>pod</module>
+		<module>orchestrator</module>
+	</modules>
 
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
