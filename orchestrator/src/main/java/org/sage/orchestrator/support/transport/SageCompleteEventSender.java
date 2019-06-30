@@ -1,4 +1,4 @@
-package org.sage.orchestrator.support;
+package org.sage.orchestrator.support.transport;
 
 import java.io.Serializable;
 
