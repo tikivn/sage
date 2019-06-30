@@ -5,7 +5,7 @@ import java.io.Serializable;
 import org.joo.promise4j.Promise;
 import org.sage.common.events.SageAck;
 
-public interface StateStore<K extends Serializable, S extends Serializable> {
+public interface StateRepository<K extends Serializable, S extends Serializable> {
 
     public Promise<SageAck<K>, Throwable> storeState(K key, S state);
 
